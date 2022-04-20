@@ -1,0 +1,39 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-style: black;
+
+}
+@media (max-width: 425px){
+ .appBarClasses{
+     width: 100%;
+     height: 20%;
+ }
+.logo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+#line {
+    display: none;
+    } 
+ .toolbar2 {
+    display: flex;
+    width: 100%;
+    height: 2em;
+    justify-content: space-around;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);;
+ }   
+ .searchIcon{
+     size: 50%;
+     color: black
+ }
+ .emptydiv{
+     display: none;
+ }
+ .container{
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    }
+}
+
